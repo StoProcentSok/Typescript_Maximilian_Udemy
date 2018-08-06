@@ -1,10 +1,7 @@
+"use strict";
 console.log("It works! Hope so..");
-let myName = 'Michal';
-
-
-let myAge = 10;
-
-let hasHobbies = true;
+var myName = 'Michal';
+var myAge = 10;
+var hasHobbies = true;
 //hasHobbies = 0;
 console.log(hasHobbies);
-  

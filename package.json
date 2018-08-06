@@ -1,0 +1,24 @@
+{
+  "name": "typescript_maximilian_udemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoProcentSok/Typescript_Maximilian_Udemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StoProcentSok/Typescript_Maximilian_Udemy/issues"
+  },
+  "homepage": "https://github.com/StoProcentSok/Typescript_Maximilian_Udemy#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
