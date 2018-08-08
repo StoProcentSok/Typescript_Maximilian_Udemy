@@ -1,7 +1,7 @@
 console.log("It works! Hope so..");
-let myName = 'Michal';
+var myName = 'Michal';
 
-let myAge = 10;
+var myAge = 10;
 
 var hasHobbies = true;
 
