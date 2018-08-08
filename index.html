@@ -12,10 +12,18 @@
       
       <script>
          
-         function changeText(text){
-            document.getElementById("buttonToChange").innerHTML = text;
-         }
-         changeText("asdasd");
+         var car = {type: "Fiat", 
+                  model: "500",
+                  color: "white"};
+         var person =  {name: "Imie", 
+                        changename: function(newName){
+                           this.name = newName;
+                        }}
+         var jakisPerson = new person("pawel");            
+         console.log(person.name);
+         person.changename("Michal");
+         console.log(person.name);
+         console.log(jakisPerson.name);
       </script>
    </body>
 </html>
