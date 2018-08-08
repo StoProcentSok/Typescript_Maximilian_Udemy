@@ -8,9 +8,14 @@
       <script src="app.js"></script>
    </head>
    <body>
-      <button onclick="app.js">Action</button>
-      <script id="script1">
-         alert("wiadomosc")
+      <button id="buttonToChange" onclick="app.js">Action</button>
+      
+      <script>
+         
+         function changeText(text){
+            document.getElementById("buttonToChange").innerHTML = text;
+         }
+         changeText("asdasd");
       </script>
    </body>
 </html>
