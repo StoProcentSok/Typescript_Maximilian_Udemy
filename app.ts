@@ -6,4 +6,3 @@ var myAge = 10;
 var hasHobbies = true;
 
 console.log(hasHobbies);
-  
