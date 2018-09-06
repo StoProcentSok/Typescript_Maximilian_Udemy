@@ -1,8 +1,6 @@
 console.log("It works! Hope so..");
-var myName = 'Michal';
-
-var myAge = 10;
-
+let myName = 'Michal';
+let myAge = 35;
 var hasHobbies = true;
-
+hasHobbies = "false";
 console.log(hasHobbies);

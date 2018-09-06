@@ -1,5 +1,6 @@
-function isItWorking(){
-    var tekscik = "It works! Hope so..";
-    console.log(tekscik.length);
-};
-
+console.log("It works! Hope so..");
+var myName = 'Michal';
+var myAge = 35;
+var hasHobbies = true;
+hasHobbies = "false";
+console.log(hasHobbies);
