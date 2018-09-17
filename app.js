@@ -16,5 +16,23 @@ var Colors;
     Colors[Colors["Green"] = 1] = "Green";
     Colors[Colors["Blue"] = 2] = "Blue";
 })(Colors || (Colors = {}));
-var myColor = Colors.Gray;
-console.log(myColor);
+//functions:
+function returnMyName() {
+    return myName;
+}
+function multiply(value1, value2) {
+    return value1 * value2;
+}
+//function types
+var myFunctionType;
+myFunctionType = multiply;
+console.log(myFunctionType(4, 5));
+//object using my type: 
+var myObject = {
+    name: "michal",
+    age: 25
+};
+//Destructuring arrays
+var myHobbies = ["cooking", "spports"];
+var hobby1 = myHobbies[0], hobbby2 = myHobbies[1];
+console.log(hobby1, hobbby2);
